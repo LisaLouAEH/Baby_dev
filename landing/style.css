@@ -1,0 +1,31 @@
+body {
+    background-color: rgb(80, 80, 110);
+    color: whitesmoke;
+}
+.box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.button_box{
+    display: flex;
+    flex-direction: row; 
+    justify-content: flex-end;
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color : whitesmoke;
+}
+.button:hover{
+    background-color: black;
+    color: whitesmoke;
+}
+.button {
+    margin: 10px;
+    text-align: right;
+    border: red solid;
+    border-radius: 7px;
+    padding: 5px;
+}
